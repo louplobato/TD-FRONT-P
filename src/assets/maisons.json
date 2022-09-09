@@ -1,0 +1,12 @@
+[
+    {
+        "nom": "Grande Maison",
+        "prix": 1500,
+        "nbrSDB": 2
+        ""
+    },
+    {
+        "nom": "test2",
+        "prix": 456
+    }
+]

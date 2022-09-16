@@ -13,15 +13,29 @@
       </li>
 
       <li>
-        <router-link class="text-red-600 underline" to="/simple.vue">
+        <router-link class="text-red-600 underline" to="/simple">
           Lien vers simple
+        </router-link>
+      </li>
+
+      <li>
+        <router-link class="text-red-600 underline" to="/liste">
+          Lien vers liste
+        </router-link>
+      </li>
+
+      <li>
+        <router-link class="text-red-600 underline" to="/listeFetch">
+          Lien vers liste fetch
         </router-link>
       </li>
     </ul>
   </nav>
 
   <!-- Affiche les pages -->
-  <router-view class="m-2 border-2 p-2" />
+  <Suspense>
+    <router-view class="m-2 border-2 p-2" />
+  </Suspense>
 </template>
 
 <script setup lang="ts">

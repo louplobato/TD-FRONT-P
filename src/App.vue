@@ -36,6 +36,12 @@
         </router-link>
       </li>
 
+      <li>
+        <router-link class="text-red-600 underline" to="/listeSupabase">
+          Lien vers Liste Supabase
+        </router-link>
+      </li>
+
     </ul>
   </nav>
 

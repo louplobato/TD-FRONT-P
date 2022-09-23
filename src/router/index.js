@@ -3,6 +3,7 @@ import simple from '../pages/simple.vue'
 import liste from '../pages/liste.vue'
 import listeFetch from '../pages/listeFetch.vue'
 import New from '../pages/new.vue'
+import listeSupabase from '../pages/listeSupabase.vue'
 
 
 const router = createRouter({
@@ -13,6 +14,7 @@ const router = createRouter({
         { path: '/liste', name: 'liste', component: liste },
         { path: '/listeFetch', name: 'listeFetch', component: listeFetch },
         { path: '/new', name: 'New', component: New },
+        { path: '/listeSupabase', name: 'listeSupabase', component: listeSupabase },
     ]
 })
 

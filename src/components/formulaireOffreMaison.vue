@@ -19,7 +19,8 @@ const maison = ref({});
                 },
                 }">
                 <FormKit name="nom" label="Nom" />
-                <FormKit name="price" label="Prix du bien" type="number" />
+                <FormKit name="prix" label="Prix du bien" type="number" />
+                <FormKit name="nbrSDB" label="nombre de salle de bain" type="number" />
                 <FormKit name="favori" label="Mettre en valeur" type="checkbox" wrapper-class="flex" />
             </FormKit>
         </div>

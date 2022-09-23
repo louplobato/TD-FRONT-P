@@ -29,12 +29,26 @@
           Lien vers liste fetch
         </router-link>
       </li>
+
+      <li>
+        <router-link class="text-red-600 underline" to="/form">
+          Lien vers FormKit
+        </router-link>
+      </li>
+
+      <li>
+        <router-link class="text-red-600 underline" to="/new">
+          Lien vers Edit
+        </router-link>
+      </li>
+
     </ul>
   </nav>
 
   <!-- Affiche les pages -->
   <Suspense>
     <router-view class="m-2 border-2 p-2" />
+    <template #fallback> Loading... </template>
   </Suspense>
 </template>
 

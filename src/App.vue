@@ -43,7 +43,7 @@
       </li>
 
       <li>
-        <router-link class="text-red-600 underline" to="/login">
+        <router-link class="text-red-600 underline" to="/loginView">
           Login
         </router-link>
       </li>

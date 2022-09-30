@@ -19,8 +19,15 @@ const nvlUtilisateur = ref(false);
         </button>
         <FormKit v-else type="form" :submit-label="nvlUtilisateur ? 'S\'inscrire' : 'Se connecter'" @submit="signIn">
             <FormKit name="email" label="Votre eMail" type="email" />
-            <FormKit name="password" label="Mot de passe" type="password" />
-            <formKit label="Nouvel utilisateur ?" name="nvlUtilisateur" type="checkbox" v-model="nvlUtilisateur" />
+            <FormKit name="password" label="Mot de passe" type="password" class="text" />
+            <formKit label="Nouvel utilisateur ?" name="nvlUtilisateur" type="checkbox" v-model="nvlUtilisateur"
+                class="text" />
         </FormKit>
     </div>
 </template>
+
+<style>
+.text {
+    color: black;
+}
+</style>
